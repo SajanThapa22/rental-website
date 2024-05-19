@@ -20,7 +20,7 @@ const NavBarResponsive = ({ onOpen, isVisible, onClose }) => {
   return (
     <div
       id="nav-bar"
-      className=" flex gap-x-20 justify-between px-6 pt-4 pb-16 items-center text-nowrap text-font-regular font-medium capitalize "
+      className=" flex gap-x-20 justify-between px-6 pt-4 pb-4 items-center text-nowrap text-font-regular font-medium capitalize "
     >
       <div id="idak-logo ">
         <img className=" w-20 " src={idakLogo} alt="" />
@@ -38,8 +38,8 @@ const NavBarResponsive = ({ onOpen, isVisible, onClose }) => {
           <Button
             pad="sign-in-p-lg"
             text="+ postlisting"
-            clr="clr-white"
-            bgClr="clr-primary"
+            bgClr="bg-clr-primary"
+            clr="text-clr-white"
           />
         </div>
       </div>

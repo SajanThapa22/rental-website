@@ -3,28 +3,32 @@
 @tailwind utilities;
 
 :root {
+  --width-1px: 1px;
   --primary: #e93740;
   --clr-white: #ffffff;
   --very-dark: #1c1c1c;
   --dark: #030303;
+  --very-light: #e6e6e6;
   --light: #979797;
   --light-green: #77b747;
   --btn-radius: 45;
   --font-large: 64px;
-  --font-big: 40px;
+  --font-big: 46px;
   --font-medium: 32px;
   --font-regular: 16px;
   --font-small: 14px;
   --font-very-small: 12px;
   --nav-p-2xl: 21px 150px;
   --nav-p-lg: 21px 80px;
+  --p-25px: 25px;
   --logo-w-md: 180px;
   --logo-h-md: 58px;
   --logo-w: 87px;
   --logo-h: 28px;
   --sign-in-p-2xl: 15px 30px;
-  --sign-in-p-lg: 7px 15px;
+  --sign-in-p-lg: 7px 20px;
   --list-gap: 25px;
+  --gap-16px: 8px;
   --sign-in-gap: 4px;
   --sign-in-listing-gap: 12px;
   --btn-radius: 45px;

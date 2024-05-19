@@ -5,7 +5,7 @@ import cross from "../assets/cross.png";
 const NavList = ({ isVisible, onClose }) => {
   return (
     <div
-      className={`absolute overflow-hidden left-0 top-0 ${
+      className={`absolute z-20 overflow-hidden left-0 top-0 ${
         isVisible ? "w-1/2" : "w-0"
       }
       } h-dvh text-clr-white bg-clr-primary text-font-regular transition-all duration-300 ease-in-out`}

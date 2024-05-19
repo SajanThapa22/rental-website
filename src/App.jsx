@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import NavBarResponsive from "./components/NavBarResponsive";
+import DiscoverRental from "./components/DiscoverRental";
 
 const App = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -22,6 +23,7 @@ const App = () => {
           onOpen={makeVisible}
         />
       )}
+      <DiscoverRental />
     </>
   );
 };

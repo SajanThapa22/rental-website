@@ -49,7 +49,11 @@ const NavBar = () => {
         </div>
 
         <div id="post-listing">
-          <Button text="+ post listing" clr="clr-white" bgClr="clr-primary" />
+          <Button
+            text="+ post listing"
+            bgClr="bg-clr-primary"
+            clr="text-clr-white"
+          />
         </div>
       </div>
     </div>
