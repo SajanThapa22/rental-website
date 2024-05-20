@@ -19,6 +19,7 @@ export default {
         "font-regular": "var(--font-regular)",
         "font-small": "var(--font-small)",
         "font-very-small": "var(--font-very-small)",
+        "font-20px": "var(--font-20px)",
       },
       padding: {
         "nav-p-2xl": "var(--nav-p-2xl)",
