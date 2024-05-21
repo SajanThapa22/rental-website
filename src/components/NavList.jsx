@@ -15,7 +15,7 @@ const NavList = ({ isVisible, onClose }) => {
           <li key={l.id}>{l.name}</li>
         ))}
       </ul>
-      <div onClick={onClose} className="absolute top-4 right-4">
+      <div onClick={onClose} className="absolute top-4 right-4 cursor-pointer">
         <img className="w-8 aspect-square" src={cross} />
       </div>
     </div>

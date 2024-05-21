@@ -4,9 +4,9 @@ import NavBarResponsive from "./components/NavBarResponsive";
 import DiscoverRental from "./components/DiscoverRental";
 
 const App = () => {
-  const [width, setWidth] = useState(window.innerWidth);
   const [isVisible, setIsVisible] = useState(false);
 
+  const [width, setWidth] = useState(window.innerWidth);
   window.addEventListener("resize", () => setWidth(window.innerWidth));
 
   const makeInvisible = () => setIsVisible(false);

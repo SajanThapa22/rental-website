@@ -30,7 +30,7 @@ const NavBarResponsive = ({ onOpen, isVisible, onClose }) => {
         id="sign-in-post-listing"
         className="flex gap-sign-in-listing-gap items-center"
       >
-        <div onClick={onOpen} className="flex items-center">
+        <div onClick={onOpen} className="flex items-center cursor-pointer">
           <img src={menu} className="w-6" alt="" />
         </div>
 
