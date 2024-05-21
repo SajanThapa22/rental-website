@@ -43,6 +43,10 @@ export default {
         "list-gap": "var(--list-gap)",
         "gap-16px": "var(--gap-16px)",
       },
+      margin: {
+        "mt-100": "var(--mt-100)",
+        "mt-50": "var(--mt-50)",
+      },
       borderRadius: {
         "btn-radius": "var(--btn-radius)",
       },

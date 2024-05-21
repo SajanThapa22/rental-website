@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import NavBarResponsive from "./components/NavBarResponsive";
 import DiscoverRental from "./components/DiscoverRental";
+import BrowseCategories from "./components/BrowseCategories";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,6 +25,7 @@ const App = () => {
         />
       )}
       <DiscoverRental />
+      <BrowseCategories />
     </>
   );
 };

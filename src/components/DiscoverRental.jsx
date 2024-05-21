@@ -27,14 +27,22 @@ const DiscoverRental = () => {
     >
       <div className="w-full top-1/4 left-1/2 grid items-center justify-center gap-list-gap">
         <div className="capitalize w-full gap-y-gap-16px">
-          <div className="flex flex-wrap w-full items-center justify-center text-font-big gap-x-3 font-bold">
+          <div
+            className={`flex flex-wrap w-full items-center justify-center ${
+              width < 507 ? "text-font-medium" : "text-font-big"
+            }  gap-x-3 font-bold`}
+          >
             <span className="inline-block">discover your</span>
             <span className="text-clr-primary inline-block">
               perfect rental
             </span>
           </div>
 
-          <p className="text-font-20px  text-center capitalize font-regular px-3">
+          <p
+            className={`text-font-20px px-5  text-center capitalize ${
+              width < 507 ? "text-font-small" : "font-regular"
+            } px-3`}
+          >
             rent cars, houses and items in just a few clicks
           </p>
         </div>
@@ -43,6 +51,7 @@ const DiscoverRental = () => {
           <div className="w-full flex gap-gap-16px justify-center">
             {buttonDetails.map((b) => (
               <Button
+                width={width < 507 ? "w-full" : ""}
                 key={b.id}
                 text={b.text}
                 bgClr={b.bgClr}
