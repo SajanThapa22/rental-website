@@ -11,6 +11,14 @@
   --very-light: #e6e6e6;
   --light: #979797;
   --light-green: #77b747;
+  --light-black: #494949;
+
+  --pink-bg: #fdebec;
+  --green-bg: #f1f8ed;
+  --purple-bg: #f6edf4;
+  --blue-bg: #eaf2f9;
+  --gray: #e8e8e8;
+
   --btn-radius: 45;
   --font-large: 64px;
   --font-big: 46px;
@@ -21,13 +29,58 @@
   --font-very-small: 12px;
   --nav-p-2xl: 21px 150px;
   --nav-p-lg: 21px 80px;
+
+  --f-24px: 24px;
+
+  --p-7px: 7px;
+  --p-12px: 12px;
+  --p-14px: 14px;
+  --p-16px: 16px;
+  --p-18px: 18px;
+  --p-20px: 20px;
+  --p-22px: 22px;
   --p-25px: 25px;
+
   --logo-w-md: 180px;
   --logo-h-md: 58px;
   --logo-w: 87px;
   --logo-h: 28px;
   --sign-in-p-2xl: 15px 30px;
   --sign-in-p-lg: 7px 20px;
+
+  --w-12px: 12px;
+  --w-14px: 14px;
+  --w-16px: 16px;
+  --w-18px: 18px;
+  --w-20px: 20px;
+  --w-22px: 22px;
+  --w-25px: 25px;
+  --w-24px: 24px;
+  --w-26px: 26px;
+  --w-28px: 28px;
+  --w-30px: 30px;
+  --w-32px: 32px;
+  --w-34px: 34px;
+  --w-36px: 36px;
+  --w-38px: 38px;
+  --w-40px: 40px;
+  --w-48px: 48px;
+  --w-55px: 55px;
+
+  --g-12px: 12px;
+  --g-14px: 14px;
+  --g-16px: 16px;
+  --g-18px: 18px;
+  --g-20px: 20px;
+  --g-22px: 22px;
+  --g-24px: 24px;
+  --g-25px: 25px;
+  --g-26px: 26px;
+  --g-28px: 28px;
+  --g-30px: 30px;
+  --g-32px: 32px;
+  --g-40px: 40px;
+
   --list-gap: 25px;
   --gap-16px: 8px;
   --sign-in-gap: 4px;
