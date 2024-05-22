@@ -52,11 +52,16 @@ const FeaturedListings = () => {
         {buttonDetails.map((b) => (
           <Button key={b.id} text={b.text} bgClr={b.bgClr} clr={b.clr} />
         ))}
-        <div className="w-w-48px text-font-small rounded-full flex justify-center items-center aspect-square bg-gray-bg">
-          <ArrowDown className="w-w-24px aspect-square text-light-black" />
+
+        <div
+          id="icon-div"
+          className="min-w-w-36px flex-shrink-0 flex-grow-0 md:w-w-40px rounded-full flex justify-center items-center aspect-square bg-gray-bg over"
+        >
+          <ArrowDown className="min-w-w-24px flex-shrink-0 flex-grow-0 aspect-square text-light-black" />
         </div>
       </div>
       <div className="h-96 "></div>
+      <div className=""></div>
     </div>
   );
 };
