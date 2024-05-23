@@ -29,6 +29,7 @@ const App = () => {
       <DiscoverRental />
       <BrowseCategories />
       <FeaturedListings />
+      <div className="h-96"></div>
     </>
   );
 };
