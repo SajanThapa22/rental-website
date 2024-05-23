@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import Button from "./Button";
 
 import ArrowDown from "../assets/arrowdown.svg?react";
+import CardsContainer from "./CardsContainer";
 
 const buttonDetails = [
   {
@@ -48,20 +49,20 @@ const FeaturedListings = () => {
   return (
     <div className="mt-mt-50 md:px-20 px-4 flex flex-col gap-g-24px md:gap-g-32px lg:gap-g-40px">
       <SectionTitle title="featured listings" />
-      <div className="flex justify-between gap-2 text-nowrap overflow-x-scroll hide-scrollbar">
+      <div className="flex gap-3 text-nowrap overflow-x-scroll hide-scrollbar">
         {buttonDetails.map((b) => (
           <Button key={b.id} text={b.text} bgClr={b.bgClr} clr={b.clr} />
         ))}
 
         <div
           id="icon-div"
-          className="min-w-w-36px flex-shrink-0 flex-grow-0 md:w-w-40px rounded-full flex justify-center items-center aspect-square bg-gray-bg over"
+          className="flex-shrink-0 size-10 overflow-hidden rounded-full flex justify-center items-center  bg-gray-bg "
         >
-          <ArrowDown className="min-w-w-24px flex-shrink-0 flex-grow-0 aspect-square text-light-black" />
+          <ArrowDown className="size-6 text-light-black" />
         </div>
       </div>
-      <div className="h-96 "></div>
-      <div className=""></div>
+
+      <CardsContainer />
     </div>
   );
 };

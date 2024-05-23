@@ -4,6 +4,7 @@ import NavBarResponsive from "./components/NavBarResponsive";
 import DiscoverRental from "./components/DiscoverRental";
 import BrowseCategories from "./components/BrowseCategories";
 import FeaturedListings from "./components/FeaturedListings";
+import CardsContainer from "./components/CardsContainer";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);

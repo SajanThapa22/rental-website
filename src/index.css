@@ -23,13 +23,14 @@
   --font-large: 64px;
   --font-big: 46px;
   --font-medium: 32px;
-  --font-20px: 20px;
   --font-regular: 16px;
   --font-small: 14px;
   --font-very-small: 12px;
   --nav-p-2xl: 21px 150px;
   --nav-p-lg: 21px 80px;
 
+  --f-18px: 18px;
+  --f-20px: 20px;
   --f-24px: 24px;
 
   --p-7px: 7px;
@@ -64,6 +65,7 @@
   --w-36px: 36px;
   --w-38px: 38px;
   --w-40px: 40px;
+  --w-44px: 44px;
   --w-48px: 48px;
   --w-55px: 55px;
 

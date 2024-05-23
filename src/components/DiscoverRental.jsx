@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Button from "./Button";
 import background from "../assets/background.png";
+import bgMobile from "../assets/bgMobile.png";
 
 import SelectandSearch from "./SelectandSearch";
 import SelectSearchResponsive from "./SelectSearchResponsive";
@@ -21,7 +22,8 @@ const DiscoverRental = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage:
+          width < 601 ? `url(${bgMobile})` : `url(${background})`,
       }}
       className="relative bg-cover bg-center h-screen py-8 sm:h-dvh w-full grid justify-center items-center"
     >
@@ -48,7 +50,11 @@ const DiscoverRental = () => {
         </div>
 
         <div className="flex flex-col items-center w-full gap-list-gap px-p-25px">
-          <div className="w-full flex gap-gap-16px justify-center">
+          <div
+            className={`flex gap-gap-16px ${
+              width < 507 ? "w-full" : ""
+            } justify-center`}
+          >
             {buttonDetails.map((b) => (
               <Button
                 width={width < 507 ? "w-full" : ""}

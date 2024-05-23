@@ -25,8 +25,9 @@ export default {
         "font-regular": "var(--font-regular)",
         "font-small": "var(--font-small)",
         "font-very-small": "var(--font-very-small)",
-        "font-20px": "var(--font-20px)",
+        "f-20px": "var(--f-20px)",
         "f-24px": "var(--f-24px)",
+        "f-18px": "var(--f-18px)",
       },
       padding: {
         "nav-p-2xl": "var(--nav-p-2xl)",
@@ -66,6 +67,7 @@ export default {
         "w-36px": "var(--w-36px)",
         "w-38px": "var(--w-38px)",
         "w-40px": "var(--w-40px)",
+        "w-44px": "var(--w-44px)",
         "w-48px": "var(--w-48px)",
         "w-55px": "var(--w-55px)",
       },
