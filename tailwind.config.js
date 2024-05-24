@@ -17,6 +17,7 @@ export default {
         "blue-bg": "var(--blue-bg)",
         "gray-bg": "var(--gray)",
         "light-black": "var(--light-black)",
+        grayer: "var(--grayer)",
       },
       fontSize: {
         "font-large": "var(--font-large)",
@@ -29,6 +30,7 @@ export default {
         "f-24px": "var(--f-24px)",
         "f-18px": "var(--f-18px)",
         "f-16px": "var(--f-16px)",
+        "f-32px": "var(--f-32px)",
         "f-36px": "var(--f-36px)",
         "f-40px": "var(--f-40px)",
         "f-50px": "var(--f-50px)",
@@ -59,6 +61,7 @@ export default {
         "logo-h": "var(--logo-h)",
         "logo-h-md": "var(--logo-h-md)",
         "h-1px": "var(--h-1px)",
+        "h-170px": "var(--h-170px)",
       },
       width: {
         "logo-w": "var(--logo-w)",

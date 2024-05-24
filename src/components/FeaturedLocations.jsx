@@ -13,7 +13,7 @@ const FeaturedLocations = () => {
     <div className="mt-mt-50 md:px-16 lg:px-20 px-p-16px flex flex-col gap-g-24px lg:gap-g-32px">
       <SectionTitle title="featured locations" />
 
-      <div className="w-full lg:aspect-[4/1] grid grid-cols-1 grid-rows-6 md:grid-cols-2 lg:grid-cols-4 gap-g-16px xl:gap-g-22px 2xl:gap-g-32px items-stretch">
+      <div className="w-full lg:aspect-[4/1] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-g-16px xl:gap-g-22px 2xl:gap-g-32px items-stretch">
         <div className="lg:row-span-2">
           <LocationsCard location="kandy" img={kandy} />
         </div>

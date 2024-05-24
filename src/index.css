@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 :root {
   --width-1px: 1px;
   --primary: #e93740;
@@ -12,6 +16,7 @@
   --light: #979797;
   --light-green: #77b747;
   --light-black: #494949;
+  --grayer: #8b8b8b;
 
   --pink-bg: #fdebec;
   --green-bg: #f1f8ed;
@@ -33,6 +38,7 @@
   --f-16px: 16px;
   --f-20px: 20px;
   --f-24px: 24px;
+  --f-32px: 32px;
   --f-36px: 36px;
   --f-40px: 40px;
   --f-50px: 50px;
@@ -89,6 +95,7 @@
   --w-108px: 108px;
 
   --h-1px: 1px;
+  --h-170px: 170px;
 
   --g-12px: 12px;
   --g-14px: 14px;

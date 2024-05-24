@@ -7,6 +7,7 @@ import FeaturedListings from "./components/FeaturedListings";
 import CardsContainer from "./components/CardsContainer";
 import Metrics from "./components/Metrics";
 import FeaturedLocations from "./components/FeaturedLocations";
+import ArticlesContainer from "./components/ArticlesContainer";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
       <FeaturedListings />
       <Metrics />
       <FeaturedLocations />
+      <ArticlesContainer />
       <div className="h-96"></div>
     </>
   );
