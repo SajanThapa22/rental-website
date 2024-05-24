@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import anneLiza from "../assets/anneLiza.png";
 import Heart from "../assets/heart.svg?react";
 
 const Cards = ({ bgImg }) => {
+  const [isClicked, setIsClicked] = useState(false);
+
   return (
     <div className="flex flex-col rounded-lg">
-      <div id="img-container">
+      <div id="img-container" className="relative">
         <img className="object-cover w-full" src={bgImg} alt="" />
+        <div className="absolute flex w-fit top-4 right-4 xl:top-4 xl:right-4 items-center justify-center bg-clr-light-green text-clr-white px-p-16px py-p-4px 2xl:px-p-26px 2xl:py-p-7px capitalize text-font-very-small lg:text-font-small rounded-full">
+          for rent
+        </div>
       </div>
 
       <div
         id="details"
-        className="flex flex-col gap-g-14px pt-3 border border-gray-bg border-t-0 rounded-lg"
+        className="flex flex-col gap-g-14px pt-3 border border-gray-bg border-t-0 rounded-t-none rounded-lg"
       >
         <div className="flex flex-col gap-1">
           <div className="flex gap-2 px-p-12px items-center">
@@ -34,7 +39,7 @@ const Cards = ({ bgImg }) => {
           <div className="h-5 w-w-2px bg-clr-very-dark"></div>
           <div>2 bathrooms</div>
           <div className="h-5 w-w-2px bg-clr-very-dark"></div>
-          <div>2500 square fit</div>
+          <div>2500 Square FT</div>
         </div>
         {/* 
         <div className="h-h-1px w-full bg-gray-bg"></div> */}
@@ -66,7 +71,14 @@ const Cards = ({ bgImg }) => {
             id="like-div"
             className="w-w-44px aspect-square bg-clr-very-light flex justify-center items-center"
           >
-            <Heart className="w-w-24px aspect-square" />
+            <Heart
+              onClick={() => setIsClicked(!isClicked)}
+              className={`w-w-24px text-clr-light ${
+                isClicked
+                  ? "fill-clr-primary text-clr-primary"
+                  : "fill-none text-clr-light"
+              } aspect-square `}
+            />
           </div>
         </div>
       </div>

@@ -33,7 +33,11 @@
   --f-16px: 16px;
   --f-20px: 20px;
   --f-24px: 24px;
+  --f-36px: 36px;
+  --f-40px: 40px;
+  --f-50px: 50px;
 
+  --p-4px: 4px;
   --p-7px: 7px;
   --p-12px: 12px;
   --p-14px: 14px;
@@ -41,7 +45,14 @@
   --p-18px: 18px;
   --p-20px: 20px;
   --p-22px: 22px;
+  --p-24px: 24px;
   --p-25px: 25px;
+  --p-26px: 26px;
+  --p-45px: 45px;
+  --p-50px: 50px;
+  --p-60px: 60px;
+  --p-70px: 70px;
+  --p-80px: 80px;
 
   --logo-w-md: 180px;
   --logo-h-md: 58px;
@@ -73,6 +84,9 @@
   --w-44px: 44px;
   --w-48px: 48px;
   --w-55px: 55px;
+  --w-80px: 80px;
+  --w-90px: 90px;
+  --w-108px: 108px;
 
   --h-1px: 1px;
 
@@ -98,4 +112,7 @@
   --height-bg: 542px;
   --mt-100: 100px;
   --mt-50: 50px;
+
+  --onebyfour: 1/4;
+  --fourbyone: 1/4;
 }

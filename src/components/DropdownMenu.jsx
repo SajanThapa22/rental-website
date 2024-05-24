@@ -70,7 +70,7 @@ const DropdownMenu = () => {
           {locations.map((l) => (
             <li
               onClick={() => setLocation(l.text)}
-              className="w-full rounded-md py-2 px-p-25px hover:bg-clr-white hover:text-clr-light "
+              className="w-full py-2 px-p-25px hover:bg-clr-white hover:text-clr-light "
               key={l.id}
             >
               {l.text}

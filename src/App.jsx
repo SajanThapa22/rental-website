@@ -5,6 +5,8 @@ import DiscoverRental from "./components/DiscoverRental";
 import BrowseCategories from "./components/BrowseCategories";
 import FeaturedListings from "./components/FeaturedListings";
 import CardsContainer from "./components/CardsContainer";
+import Metrics from "./components/Metrics";
+import FeaturedLocations from "./components/FeaturedLocations";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,6 +31,8 @@ const App = () => {
       <DiscoverRental />
       <BrowseCategories />
       <FeaturedListings />
+      <Metrics />
+      <FeaturedLocations />
       <div className="h-96"></div>
     </>
   );

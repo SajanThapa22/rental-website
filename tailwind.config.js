@@ -29,6 +29,9 @@ export default {
         "f-24px": "var(--f-24px)",
         "f-18px": "var(--f-18px)",
         "f-16px": "var(--f-16px)",
+        "f-36px": "var(--f-36px)",
+        "f-40px": "var(--f-40px)",
+        "f-50px": "var(--f-50px)",
       },
       padding: {
         "nav-p-2xl": "var(--nav-p-2xl)",
@@ -36,6 +39,7 @@ export default {
         "sign-in-p-2xl": "var(--sign-in-p-2xl)",
         "sign-in-p-lg": "var(--sign-in-p-lg)",
         "p-25px": "var(--p-25px)",
+        "p-4px": "var(--p-4px)",
         "p-7px": "var(--p-7px)",
         "p-12px": "var(--p-12px)",
         "p-14px": "var(--p-14px)",
@@ -43,6 +47,13 @@ export default {
         "p-18px": "var(--p-18px)",
         "p-20px": "var(--p-20px)",
         "p-22px": "var(--p-22px)",
+        "p-24px": "var(--p-24px)",
+        "p-26px": "var(--p-26px)",
+        "p-45px": "var(--p-45px)",
+        "p-50px": "var(--p-50px)",
+        "p-60px": "var(--p-60px)",
+        "p-70px": "var(--p-70px)",
+        "p-80px": "var(--p-80px)",
       },
       height: {
         "logo-h": "var(--logo-h)",
@@ -102,6 +113,10 @@ export default {
       },
       borderRadius: {
         "btn-radius": "var(--btn-radius)",
+      },
+      aspectRatio: {
+        onebyfour: "var(--onebyfour)",
+        fourbyone: "var(--fourbyone)",
       },
     },
   },
