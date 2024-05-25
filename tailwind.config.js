@@ -18,6 +18,9 @@ export default {
         "gray-bg": "var(--gray)",
         "light-black": "var(--light-black)",
         grayer: "var(--grayer)",
+        "footer-bg": "var(--footer-bg)",
+        "input-border": "var(--input-border)",
+        "clr-copyrights": "var(--clr-copyrights)",
       },
       fontSize: {
         "font-large": "var(--font-large)",
@@ -62,6 +65,7 @@ export default {
         "logo-h-md": "var(--logo-h-md)",
         "h-1px": "var(--h-1px)",
         "h-170px": "var(--h-170px)",
+        "h-49px": "var(--h-49px)",
       },
       width: {
         "logo-w": "var(--logo-w)",
@@ -90,6 +94,7 @@ export default {
         "w-44px": "var(--w-44px)",
         "w-48px": "var(--w-48px)",
         "w-55px": "var(--w-55px)",
+        "w-153px": "var(--w-153px)",
       },
       gap: {
         "sign-in-listing-gap": "var(--sign-in-listing-gap)",

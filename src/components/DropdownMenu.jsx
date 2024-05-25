@@ -25,11 +25,9 @@ const DropdownMenu = () => {
       const spaceAbove = rect.top;
       if (spaceBelow > 10 && spaceBelow > spaceAbove) {
         setDropDirection("down");
-        console.log("down", spaceBelow, spaceAbove);
       }
       if (spaceBelow < 10 && spaceBelow < spaceAbove) {
         setDropDirection("up");
-        console.log("up", spaceAbove, spaceBelow);
       }
     }
   };

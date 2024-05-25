@@ -4,10 +4,10 @@ import NavBarResponsive from "./components/NavBarResponsive";
 import DiscoverRental from "./components/DiscoverRental";
 import BrowseCategories from "./components/BrowseCategories";
 import FeaturedListings from "./components/FeaturedListings";
-import CardsContainer from "./components/CardsContainer";
 import Metrics from "./components/Metrics";
 import FeaturedLocations from "./components/FeaturedLocations";
 import ArticlesContainer from "./components/ArticlesContainer";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -35,7 +35,7 @@ const App = () => {
       <Metrics />
       <FeaturedLocations />
       <ArticlesContainer />
-      <div className="h-96"></div>
+      <Footer />
     </>
   );
 };

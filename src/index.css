@@ -25,6 +25,7 @@ body {
   --gray: #e8e8e8;
   --footer-bg: #f4f4f4;
   --clr-copyrights: #696888;
+  --input-border: #cccccc;
 
   --btn-radius: 45;
   --font-large: 64px;
@@ -95,8 +96,10 @@ body {
   --w-80px: 80px;
   --w-90px: 90px;
   --w-108px: 108px;
+  --w-153px: 153px;
 
   --h-1px: 1px;
+  --h-49px: 49px;
   --h-170px: 170px;
 
   --g-12px: 12px;
