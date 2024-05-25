@@ -1,7 +1,7 @@
 import React from "react";
 
-import idakLogo from "../assets/idakLogo.png";
-import user from "../assets/user.png";
+import idakLogo from "../assets/Images/idakLogo.png";
+import user from "../assets/Images/user.png";
 import Button from "./Button";
 
 export const list = [

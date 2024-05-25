@@ -1,8 +1,8 @@
 import React from "react";
 import Cards from "./Cards";
-import building from "../assets/building.png";
-import building1 from "../assets/building1.png";
-import building2 from "../assets/building2.png";
+import building from "../assets/Images/building.png";
+import building1 from "../assets/Images/building1.png";
+import building2 from "../assets/Images/building2.png";
 
 const cardDetails = [
   { id: 1, img: building },

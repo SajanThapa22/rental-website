@@ -2,11 +2,11 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import ArticleCards from "./ArticleCards";
 
-import mainArticle from "../assets/mainArticle.png";
-import article1 from "../assets/article1.png";
-import article2 from "../assets/article2.png";
-import article3 from "../assets/article3.png";
-import article4 from "../assets/article4.png";
+import mainArticle from "../assets/Images/mainArticle.png";
+import article1 from "../assets/Images/article1.png";
+import article2 from "../assets/Images/article2.png";
+import article3 from "../assets/Images/article3.png";
+import article4 from "../assets/Images/article4.png";
 
 const articles = [
   {
@@ -45,7 +45,7 @@ const ArticlesContainer = () => {
       <SectionTitle title="important articles" />
       <div
         id="article-container"
-        className="grid grid-cols-1 gap-5 2xl:gap-8 lg:grid-cols-[5fr,4fr]"
+        className="grid grid-cols-1 gap-5 2xl:gap-8 xl:grid-cols-[5fr,4fr] 2xl:grid-cols-[7fr,5fr] "
       >
         <div className="h-full">
           <ArticleCards
@@ -64,7 +64,7 @@ const ArticlesContainer = () => {
               date={a.date}
               title={a.title}
               context={a.context}
-              styles="grid grid-cols-1 sm:grid-cols-[3fr,4fr]"
+              styles="grid grid-cols-1 md:grid-cols-[3fr,5fr] lg:grid-cols-[2fr,6fr] xl:grid-cols-[3fr,4fr]  "
             />
           ))}
         </div>

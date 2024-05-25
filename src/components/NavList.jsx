@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { list } from "./NavBar";
-import cross from "../assets/cross.png";
+import cross from "../assets/Images/cross.png";
 
 const NavList = ({ isVisible, onClose }) => {
   return (

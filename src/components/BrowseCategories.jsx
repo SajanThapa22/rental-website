@@ -1,11 +1,11 @@
 import React from "react";
 import Decorators from "./Decorators";
 import CategoriesSelector from "./CategoriesSelector";
-import Compass from "../assets/compass.svg?react";
-import Home from "../assets/home.svg?react";
-import More from "../assets/more.svg?react";
-import ThumbsUp from "../assets/thumbsUp.svg?react";
-import DollarSign from "../assets/dollarSign.svg?react";
+import Compass from "../assets/SVGs/compass.svg?react";
+import Home from "../assets/SVGs/home.svg?react";
+import More from "../assets/SVGs/more.svg?react";
+import ThumbsUp from "../assets/SVGs/thumbsUp.svg?react";
+import DollarSign from "../assets/SVGs/dollarSign.svg?react";
 import SectionTitle from "./SectionTitle";
 
 const BrowseCategories = () => {

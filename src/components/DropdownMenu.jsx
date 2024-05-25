@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 
-import Location from "../assets/location.svg?react";
-import ArrowDown from "../assets/arrowdown.svg?react";
+import Location from "../assets/SVGs/location.svg?react";
+import ArrowDown from "../assets/SVGs/arrowdown.svg?react";
 
 export const locations = [
   { id: 1, text: "Pokhara" },

@@ -2,7 +2,7 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import DropdownMenu from "./DropdownMenu";
 
-import Search from "../assets/search.svg?react";
+import Search from "../assets/SVGs/search.svg?react";
 
 const SelectSearchResponsive = ({ placeHolder }) => {
   return (

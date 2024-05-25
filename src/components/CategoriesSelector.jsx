@@ -9,7 +9,7 @@ const CategoriesSelector = ({ text, svg, bgClr }) => {
         {svg}
       </div>
       <div>
-        <p className="text-font-small text-center text-clr-very-dark text-nowrap capitalize">
+        <p className="text-font-regular text-center text-clr-very-dark text-nowrap capitalize">
           {text}
         </p>
       </div>

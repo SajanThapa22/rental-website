@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import anneLiza from "../assets/anneLiza.png";
-import Heart from "../assets/heart.svg?react";
+import anneLiza from "../assets/Images/anneLiza.png";
+import Heart from "../assets/SVGs/heart.svg?react";
 
 const Cards = ({ bgImg }) => {
   const [isClicked, setIsClicked] = useState(false);

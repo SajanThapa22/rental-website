@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import Button from "./Button";
 
-import ArrowDown from "../assets/arrowdown.svg?react";
+import ArrowDown from "../assets/SVGs/arrowdown.svg?react";
 import CardsContainer from "./CardsContainer";
 
 const buttonDetails = [
@@ -49,14 +49,14 @@ const FeaturedListings = () => {
   return (
     <div className="mt-mt-50 md:px-16 lg:px-20 px-p-16px flex flex-col gap-g-24px md:gap-g-32px lg:gap-g-40px">
       <SectionTitle title="featured listings" />
-      <div className="flex gap-3 text-nowrap overflow-x-scroll hide-scrollbar">
+      <div className="flex gap-4 2xl:gap-6 text-nowrap overflow-x-scroll hide-scrollbar">
         {buttonDetails.map((b) => (
           <Button key={b.id} text={b.text} bgClr={b.bgClr} clr={b.clr} />
         ))}
 
         <div
           id="icon-div"
-          className="flex-shrink-0 size-10 2xl:size-14 overflow-hidden rounded-full flex justify-center items-center  bg-gray-bg "
+          className="flex-shrink-0 size-11 2xl:size-12 overflow-hidden rounded-full flex justify-center items-center  bg-gray-bg "
         >
           <ArrowDown className="size-6 text-light-black" />
         </div>

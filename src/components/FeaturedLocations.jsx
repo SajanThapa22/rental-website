@@ -1,12 +1,12 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import LocationsCard from "./LocationsCard";
-import kandy from "../assets/kandy.png";
-import anuradhapura from "../assets/anuradhapura.png";
-import gampha from "../assets/gampha.png";
-import badulla from "../assets/badulla.png";
-import colombo from "../assets/colombo.png";
-import jaffna from "../assets/jaffna.png";
+import kandy from "../assets/Images/kandy.png";
+import anuradhapura from "../assets/Images/anuradhapura.png";
+import gampha from "../assets/Images/gampha.png";
+import badulla from "../assets/Images/badulla.png";
+import colombo from "../assets/Images/colombo.png";
+import jaffna from "../assets/Images/jaffna.png";
 
 const FeaturedLocations = () => {
   return (

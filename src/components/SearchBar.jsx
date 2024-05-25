@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../assets/search.svg?react";
+import Search from "../assets/SVGs/search.svg?react";
 
 const SearchBar = ({ placeHolder }) => {
   return (
@@ -8,7 +8,7 @@ const SearchBar = ({ placeHolder }) => {
       <input
         type="text"
         placeholder={`Search for ${placeHolder}`}
-        className=" focus:outline-none w-full font-light text-font-small bg-right-right"
+        className="focus:outline-none w-full font-light text-font-small bg-right-right"
       />
     </div>
   );

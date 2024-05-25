@@ -7,7 +7,7 @@ const ArticleCards = ({ date, title, context, img, styles }) => {
     >
       <div className={`overflow-hidden`}>
         <img
-          className="rounded-lg w-full aspect-[2/1] lg:aspect-[3/2] object-cover"
+          className="rounded-lg w-full aspect-[2/1] xl:aspect-[3/2] object-cover"
           src={img}
           alt=""
         />

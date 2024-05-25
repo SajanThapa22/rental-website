@@ -1,6 +1,5 @@
-import menu from "../assets/menu.png";
-import idakLogo from "../assets/idakLogo.png";
-import user from "../assets/user.png";
+import menu from "../assets/Images/menu.png";
+import idakLogo from "../assets/Images/idakLogo.png";
 import Button from "./Button";
 import { useEffect, useState } from "react";
 import NavList from "./NavList";

@@ -2,12 +2,12 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import DropdownMenu from "./DropdownMenu";
 
-import Search from "../assets/search.svg?react";
+import Search from "../assets/SVGs/search.svg?react";
 
 const SelectandSearch = ({ placeHolder }) => {
   return (
     <div className="w-full px-4 py-3 gap-6 relative rounded-btn-radius justify-between flex items-center bg-clr-white">
-      <div className="h-full absolute w-width-1px bg-clr-very-light left-1/2 transform -translate-x-1/2"></div>
+      <div className="h-full absolute w-width-1px bg-clr-very-light left-1/2 transform -translate-x-1/2 hidden md:block"></div>
 
       <SearchBar placeHolder={placeHolder} />
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import Button from "./Button";
-import background from "../assets/background.png";
-import bgMobile from "../assets/bgMobile.png";
+import background from "../assets/Images/background.png";
+import bgMobile from "../assets/Images/bgMobile.png";
 
 import SelectandSearch from "./SelectandSearch";
 import SelectSearchResponsive from "./SelectSearchResponsive";
@@ -27,10 +27,10 @@ const DiscoverRental = () => {
       }}
       className="relative bg-cover bg-center h-screen py-8 sm:h-dvh w-full grid justify-center items-center"
     >
-      <div className="w-full top-1/4 left-1/2 grid items-center justify-center gap-list-gap">
-        <div className="capitalize w-full gap-y-gap-16px">
+      <div className="w-full top-1/4 left-1/2 grid items-center justify-center gap-y-10 2xl:gap-y-12">
+        <div className="capitalize w-full flex flex-col gap-y-4 2xl:gap-y-8">
           <div
-            className={`flex flex-wrap w-full items-center justify-center ${
+            className={`flex flex-wrap px-3 w-full items-center justify-center ${
               width < 507 ? "text-font-medium" : "text-font-big"
             }  gap-x-3 font-bold`}
           >
@@ -41,7 +41,7 @@ const DiscoverRental = () => {
           </div>
 
           <p
-            className={`text-font-20px px-5  text-center capitalize ${
+            className={`text-font-small lg:text-f-20px px-5  text-center capitalize ${
               width < 507 ? "text-font-small" : "font-regular"
             } px-3`}
           >
@@ -49,7 +49,7 @@ const DiscoverRental = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center w-full gap-list-gap px-p-25px">
+        <div className="flex flex-col items-center w-full gap-list-gap px-10">
           <div
             className={`flex gap-gap-16px ${
               width < 507 ? "w-full" : ""
@@ -67,7 +67,7 @@ const DiscoverRental = () => {
               />
             ))}
           </div>
-          {width < 507 ? (
+          {width < 600 ? (
             <SelectSearchResponsive
               className="w-full"
               placeHolder={placeHolder}
