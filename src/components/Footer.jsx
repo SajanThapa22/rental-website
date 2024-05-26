@@ -10,7 +10,7 @@ import Linkedin from "../assets/SVGs/linkedin.svg?react";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:gap-12 xl:gap-20 2xl:gap-40 gap-7 mt-mt-50 md:px-16 lg:px-20 px-p-16px py-8 bg-footer-bg">
+      <div className="flex flex-col lg:flex-row lg:gap-12 xl:gap-20 2xl:gap-36 gap-7 mt-mt-50 md:px-16 lg:px-20 px-p-16px py-8 bg-footer-bg">
         <div className="flex flex-col gap-g-18px lg:flex-2">
           <div>
             <img className="w-w-153px h-h-49px" src={idakLogo} alt="" />
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 lg:gap-12 2xl:gap-40 md:flex-row text-nowrap">
+        <div className="flex flex-col gap-10 lg:gap-12 2xl:gap-36 md:flex-row text-nowrap">
           <div className="flex flex-col gap-5">
             <p className="text-f-16px text-clr-primary font-bold capitalize">
               navigation
