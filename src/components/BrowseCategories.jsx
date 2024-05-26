@@ -35,7 +35,7 @@ const BrowseCategories = () => {
           bgClr="bg-blue-bg"
         />
         <CategoriesSelector
-          text="more"
+          text="more.."
           svg={<More className="w-8" />}
           bgClr="bg-pink-bg"
         />

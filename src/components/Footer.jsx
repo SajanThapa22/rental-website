@@ -93,7 +93,7 @@ const Footer = () => {
               Subscribe to Our Newsletter
             </p>
             <p className="text-font-small text-clr-very-dark capitalize">
-              Stay updated with the latest listings and rental tips.
+              Stay updated with the latest listings and rental tips and tricks.
             </p>
           </div>
 

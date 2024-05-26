@@ -11,7 +11,7 @@ const Metrics = () => {
       </div>
       <MetricsCard amount="5000" text="Total Listings in the System" />
       <MetricsCard amount="1000" text="Active Listings" />
-      <MetricsCard amount="300" text="Articles in the Blog" />
+      <MetricsCard amount="3000" text="Articles in the Blog" />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const list = [
   { id: 3, name: "categories" },
   { id: 4, name: "about us" },
   { id: 5, name: "contact" },
-  { id: 6, name: "blog" },
+  { id: 7, name: "blog" },
 ];
 
 const NavBarResponsive = ({ onOpen, isVisible, onClose }) => {
