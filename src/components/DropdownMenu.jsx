@@ -62,7 +62,7 @@ const DropdownMenu = () => {
           dropDirection === "down"
             ? "-bottom-1 translate-y-full"
             : "-top-1 -translate-y-full"
-        } left-1/2 -translate-x-1/2 text-clr-white bg-clr-light rounded-xl`}
+        } left-1/2 -translate-x-1/2 text-clr-very-dark bg-clr-very-light rounded-xl`}
       >
         <ul>
           {locations.map((l) => (
