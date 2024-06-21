@@ -69,6 +69,8 @@ const ArticlesContainer = () => {
           ))}
         </div>
       </div>
+      <div></div>
+      <div></div>
     </div>
   );
 };
