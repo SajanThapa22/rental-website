@@ -11,6 +11,9 @@ const cardDetails = [
   { id: 4, img: building },
   { id: 5, img: building1 },
   { id: 6, img: building2 },
+  { id: 7, img: building },
+  { id: 8, img: building1 },
+  { id: 9, img: building2 },
 ];
 
 const CardsContainer = () => {

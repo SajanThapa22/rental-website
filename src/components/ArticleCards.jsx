@@ -35,7 +35,6 @@ const ArticleCards = ({ date, title, context, img, styles }) => {
           {context}
         </p>
       </div>
-      <div></div>
     </div>
   );
 };

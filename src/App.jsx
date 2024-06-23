@@ -36,7 +36,6 @@ const App = () => {
       <FeaturedLocations />
       <ArticlesContainer />
       <Footer />
-      <div></div>
     </>
   );
 };
