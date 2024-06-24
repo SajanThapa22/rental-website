@@ -10,8 +10,8 @@ const Metrics = () => {
         </p>
       </div>
       <MetricsCard amount="5000" text="Total Listings in the System" />
-      <MetricsCard amount="1000" text="Active Listings" />
-      <MetricsCard amount="3000" text="Articles in the Blog" />
+      <MetricsCard amount="2000" text="Active Listings" />
+      <MetricsCard amount="7000" text="Articles in the Blog" />
     </div>
   );
 };
