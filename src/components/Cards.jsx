@@ -6,9 +6,13 @@ const Cards = ({ bgImg }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <div className="flex flex-col rounded-lg">
-      <div id="img-container" className="relative">
-        <img className="object-cover w-full" src={bgImg} alt="" />
+    <div className="flex flex-col rounded-lg overflow-hidden">
+      <div id="img-container" className="relative overflow-hidden">
+        <img
+          className="object-cover w-full hover:scale-110 transition-all duration-[.3s]"
+          src={bgImg}
+          alt=""
+        />
         <div className="absolute flex w-fit top-4 right-4 xl:top-4 xl:right-4 items-center justify-center bg-clr-light-green text-clr-white px-p-16px py-p-4px 2xl:px-p-26px 2xl:py-p-7px capitalize text-font-very-small lg:text-font-small rounded-full">
           for rent
         </div>
@@ -77,7 +81,7 @@ const Cards = ({ bgImg }) => {
                 isClicked
                   ? "fill-clr-primary text-clr-primary"
                   : "fill-none text-clr-light"
-              } aspect-square `}
+              } aspect-square cursor-pointer`}
             />
           </div>
         </div>

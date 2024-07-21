@@ -9,12 +9,23 @@ import SelectSearchResponsive from "./SelectSearchResponsive";
 
 export const buttonDetails = [
   { id: 1, text: "places", bgClr: "bg-clr-primary", clr: "text-clr-white" },
-  { id: 2, text: "rides", bgClr: "bg-clr-white", clr: "text-clr-very-dark" },
-  { id: 3, text: "things", bgClr: "bg-clr-white", clr: "text-clr-very-dark" },
+  {
+    id: 2,
+    text: "rides",
+    bgClr: "bg-clr-white",
+    clr: "text-clr-very-dark",
+  },
+  {
+    id: 3,
+    text: "things",
+    bgClr: "bg-clr-white",
+    clr: "text-clr-very-dark",
+  },
 ];
 
 const DiscoverRental = () => {
   const [placeHolder, setPlaceHolder] = useState("cars, houses and more..");
+  const [selectedRental, setSelectedRental] = useState("");
 
   const [width, setWidth] = useState(window.innerWidth);
   window.addEventListener("resize", () => setWidth(window.innerWidth));
@@ -57,10 +68,15 @@ const DiscoverRental = () => {
           >
             {buttonDetails.map((b) => (
               <Button
+                onClick={() => setSelectedRental(b.text)}
                 width={width < 507 ? "w-full" : ""}
                 key={b.id}
                 text={b.text}
-                bgClr={b.bgClr}
+                bgClr={
+                  b.text === selectedRental
+                    ? `${b.bgClr} brightness-90`
+                    : b.bgClr
+                }
                 clr={b.clr}
                 onFocus={() => setPlaceHolder(b.text)}
                 onBlur={() => setPlaceHolder("cars, houses and more..")}

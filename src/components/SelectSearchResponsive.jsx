@@ -15,7 +15,7 @@ const SelectSearchResponsive = ({ placeHolder }) => {
         <DropdownMenu />
       </div>
 
-      <div className="rounded-btn-radius w-full bg-clr-primary flex justify-center items-center gap-2 px-8 py-4 font-bold text-clr-white">
+      <div className="rounded-btn-radius w-full bg-clr-primary flex justify-center items-center gap-2 px-8 py-4 font-bold text-clr-white cursor-pointer">
         <Search className="text-clr-white w-5 aspect-square" />
         <p>Search Now</p>
       </div>

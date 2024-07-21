@@ -1,12 +1,12 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import LocationsCard from "./LocationsCard";
-import kandy from "../assets/Images/kandy.png";
-import anuradhapura from "../assets/Images/anuradhapura.png";
-import gampha from "../assets/Images/gampha.png";
-import badulla from "../assets/Images/badulla.png";
-import colombo from "../assets/Images/colombo.png";
-import jaffna from "../assets/Images/jaffna.png";
+import ktm from "../assets/Images/ktm.jpg";
+import pokhara from "../assets/Images/pokhara.jpg";
+import beni from "../assets/Images/beni.jpg";
+import butwal from "../assets/Images/butwal.jpg";
+import jomsom from "../assets/Images/jomsom.jpg";
+import baglung from "../assets/Images/baglung.jpeg";
 
 const FeaturedLocations = () => {
   return (
@@ -15,17 +15,17 @@ const FeaturedLocations = () => {
 
       <div className="w-full lg:aspect-[4/1] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-g-16px xl:gap-g-22px 2xl:gap-g-32px items-stretch">
         <div className="lg:row-span-2">
-          <LocationsCard location="kandy" img={kandy} />
+          <LocationsCard location="Kathmandu" img={ktm} />
         </div>
-        <LocationsCard location="anuradhapura" img={anuradhapura} />
-        <LocationsCard location="gampha" img={gampha} />
+        <LocationsCard location="Beni" img={beni} />
+        <LocationsCard location="jomsom" img={jomsom} />
 
         <div className="lg:row-span-2">
-          <LocationsCard location="colombo" img={colombo} />
+          <LocationsCard location="pokhara" img={pokhara} />
         </div>
-        <LocationsCard location="badulla" img={badulla} />
+        <LocationsCard location="butwal" img={butwal} />
 
-        <LocationsCard location="jaffna" img={jaffna} />
+        <LocationsCard location="baglung" img={baglung} />
       </div>
     </div>
   );

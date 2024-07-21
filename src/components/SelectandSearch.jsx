@@ -13,7 +13,7 @@ const SelectandSearch = ({ placeHolder }) => {
 
       <div className="h-full flex items-center gap-6">
         <DropdownMenu />
-        <div className="rounded-full bg-clr-primary aspect-square flex items-center p-2">
+        <div className="rounded-full bg-clr-primary aspect-square flex items-center p-2 cursor-pointer">
           <Search className="text-clr-white" />
         </div>
       </div>

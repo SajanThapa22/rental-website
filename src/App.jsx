@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <>
-      {width > 1140 ? (
+      {width > 1240 ? (
         <NavBar />
       ) : (
         <NavBarResponsive

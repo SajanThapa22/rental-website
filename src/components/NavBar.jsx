@@ -21,13 +21,13 @@ const NavBar = () => {
       className=" flex justify-between p-nav-p-lg 2xl:p-nav-p-2xl items-center text-nowrap text-font-regular font-medium capitalize relative"
     >
       <div id="idak-logo ">
-        <img className="w-100% min-w-32 lg:w-32 w-32" src={idakLogo} alt="" />
+        <img className="w-32" src={idakLogo} alt="" />
       </div>
 
       <nav className="flex text-nowrap align-middle absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <ul className="list-none flex gap-list-gap">
           {list.map((l) => (
-            <li className="flex items-center" key={l.id}>
+            <li className="flex items-center cursor-pointer" key={l.id}>
               {l.name}
             </li>
           ))}
@@ -40,7 +40,7 @@ const NavBar = () => {
       >
         <div
           id="sign-in"
-          className="flex items-center gap-sign-in-gap p-sign-in-p-lg 2xl:p-sign-in-p-2xl"
+          className="flex items-center gap-sign-in-gap p-sign-in-p-lg 2xl:p-sign-in-p-2xl cursor-pointer"
         >
           <img src={user} alt="" />
           <p id="sign-in-text" className="text-clr-primary">

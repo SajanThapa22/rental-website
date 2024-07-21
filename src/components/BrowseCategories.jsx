@@ -1,5 +1,4 @@
 import React from "react";
-import Decorators from "./Decorators";
 import CategoriesSelector from "./CategoriesSelector";
 import Compass from "../assets/SVGs/compass.svg?react";
 import Home from "../assets/SVGs/home.svg?react";
