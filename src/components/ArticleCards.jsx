@@ -3,13 +3,12 @@ import React from "react";
 const ArticleCards = ({ date, title, context, img, styles }) => {
   return (
     <div
-      className={`flex flex-col lg:flex-row gap-4 lg:gap-g-20px 2xl:gap-8 ${styles}`}
+      className={`flex flex-col lg:flex-row gap-4 lg:gap-g-20px 2xl:gap-8 hover:bg-[#e6e6e6] p-2 rounded-md ${styles}`}
     >
-      <div className={`overflow-hidden`}>
+      <div className="overflow-hidden rounded-[8px]">
         <img
-          className="rounded-lg w-full aspect-[2/1] xl:aspect-[3/2] object-cover"
+          className=" w-full aspect-[2/1] rounded-lg xl:aspect-[3/2] object-covertransition-transform duration-[.3s]"
           src={img}
-          alt=""
         />
       </div>
 
@@ -23,7 +22,7 @@ const ArticleCards = ({ date, title, context, img, styles }) => {
           </p>
           <p
             id="title"
-            className="font-bold text-font-regular 2xl:text-f-20px text-clr-very-dark"
+            className="font-bold text-font-regular 2xl:text-f-20px text-clr-very-dark cursor-pointer"
           >
             {title}
           </p>

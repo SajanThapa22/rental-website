@@ -14,28 +14,26 @@ const articles = [
     date: "May 7, 2023",
     title: "Car Rental Hacks for a Smooth Journey",
     context:
-      "Learn insider tips for getting the best deals and making the most of your rental car experience.",
+      "Learn insider tips for getting the best deals and making the most of...",
   },
   {
     img: article4,
     date: "April 25, 2023",
     title: "Managing Your Rental Items: A Comprehensive Guide",
-    context:
-      "Get valuable insights on how to effectively manage and maintain your rented items.",
+    context: "Get valuable insights on how to effectively manage and...",
   },
   {
     img: article3,
     date: "January 2, 2023",
     title: "Navigating the Rental Market: Insights for New Renters",
-    context:
-      "Explore key considerations and useful tips for individuals new to the rental market.",
+    context: "Explore key considerations and useful tips for individuals...",
   },
   {
     img: article2,
     date: "April 7, 2023",
     title: "Maximizing Returns: Strategies for Rental Property Owners ",
     context:
-      "Learn strategies to optimize the return on investment for your rental property.",
+      "Learn strategies to optimize the return on investment for your rental property...",
   },
 ];
 
@@ -45,7 +43,7 @@ const ArticlesContainer = () => {
       <SectionTitle title="important articles" />
       <div
         id="article-container"
-        className="grid grid-cols-1 gap-5 2xl:gap-8 xl:grid-cols-[5fr,4fr] 2xl:grid-cols-[7fr,5fr] "
+        className="grid grid-cols-1 gap-3 2xl:gap-8 xl:grid-cols-[5fr,4fr] 2xl:grid-cols-[7fr,5fr] "
       >
         <div className="h-full">
           <ArticleCards
@@ -56,7 +54,7 @@ const ArticlesContainer = () => {
             context="Discover expert advice on how to find the ideal rental property that meets your needs and budget."
           />
         </div>
-        <div className="flex flex-col gap-4 2xl:gap-6">
+        <div className="flex flex-col gap-2 2xl:gap-6">
           {articles.map((a) => (
             <ArticleCards
               key={a.date}

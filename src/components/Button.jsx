@@ -14,5 +14,3 @@ const Button = ({ text, clr, bgClr, onFocus, onBlur, width, onClick }) => {
 };
 
 export default Button;
-
-// hover:bg-[#cc323a]

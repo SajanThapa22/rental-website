@@ -92,7 +92,6 @@ const DiscoverRental = () => {
             <SelectandSearch placeHolder={placeHolder} />
           )}
         </div>
-        {/* <div className="h-96 "></div> */}
       </div>
     </div>
   );

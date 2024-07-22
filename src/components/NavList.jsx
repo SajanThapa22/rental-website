@@ -24,7 +24,7 @@ const NavList = ({ isVisible, onClose }) => {
     <>
       <div
         onClick={onClose}
-        className={`z-[10] fixed left-0 top-0 bg-transparent w-screen h-dvh ${
+        className={`z-[10] fixed left-0 top-0 bg-transparent w-screen h-screen ${
           isVisible ? "visible" : "hidden"
         } `}
       ></div>
@@ -32,7 +32,7 @@ const NavList = ({ isVisible, onClose }) => {
         className={`fixed z-50 overflow-hidden left-0 top-0 ${
           isVisible ? "w-2/3" : "w-0"
         }
-      } h-dvh text-clr-white bg-clr-primary text-font-regular transition-all duration-300 ease-in-out`}
+      } h-screen text-clr-white bg-clr-primary text-font-regular transition-all duration-300 ease-in-out`}
       >
         <ul className="w-full flex px-9 py-[54px] flex-col gap-7">
           {list.map((l) => {
