@@ -11,12 +11,8 @@ const NavBarResponsive = ({ onOpen, isVisible, onClose }) => {
       id="nav-bar"
       className=" flex gap-x-20 justify-between px-6 pt-4 pb-4 items-center text-nowrap text-font-regular font-medium capitalize "
     >
-      <div id="idak-logo ">
-        <img
-          className=" w-20 md:w-[120px] lg:[w-110px]"
-          src={idakLogo}
-          alt=""
-        />
+      <div id="idak-logo" className="cursor-pointer">
+        <img className=" w-20 md:w-[120px] lg:[w-110px]" src={idakLogo} />
       </div>
 
       <div

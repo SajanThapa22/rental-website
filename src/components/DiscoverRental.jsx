@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Button from "./Button";
 import background from "../assets/Images/background.png";
@@ -24,11 +24,15 @@ export const buttonDetails = [
 ];
 
 const DiscoverRental = () => {
-  const [placeHolder, setPlaceHolder] = useState("cars, houses and more..");
-  const [selectedRental, setSelectedRental] = useState("");
+  const [placeHolder, setPlaceHolder] = useState("places");
+  const [selectedRental, setSelectedRental] = useState("places");
 
   const [width, setWidth] = useState(window.innerWidth);
-  window.addEventListener("resize", () => setWidth(window.innerWidth));
+
+  useEffect(
+    () => window.addEventListener("resize", () => setWidth(window.innerWidth)),
+    []
+  );
 
   return (
     <div
@@ -75,7 +79,6 @@ const DiscoverRental = () => {
                 bgClr={b.text === selectedRental ? `bg-[#dc2626]` : b.bgClr}
                 clr={b.text === selectedRental ? `text-white` : b.clr}
                 onFocus={() => setPlaceHolder(b.text)}
-                onBlur={() => setPlaceHolder("cars, houses and more..")}
               />
             ))}
           </div>

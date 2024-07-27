@@ -4,11 +4,11 @@ import Location from "../assets/SVGs/location.svg?react";
 import ArrowDown from "../assets/SVGs/arrowdown.svg?react";
 
 export const locations = [
-  { id: 1, text: "Pokhara" },
-  { id: 2, text: "Kathmandu" },
-  { id: 3, text: "Narayanghad" },
   { id: 4, text: "Baglung" },
-  { id: 5, text: "Dhading" },
+  { id: 3, text: "Beni" },
+  { id: 5, text: "Butwal" },
+  { id: 2, text: "Kathmandu" },
+  { id: 1, text: "Pokhara" },
 ];
 
 const DropdownMenu = () => {

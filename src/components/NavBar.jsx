@@ -20,8 +20,8 @@ const NavBar = () => {
       id="nav-bar"
       className=" flex justify-between p-nav-p-lg 2xl:p-nav-p-2xl items-center text-nowrap text-font-regular font-medium capitalize relative"
     >
-      <div id="idak-logo ">
-        <img className="w-32" src={idakLogo} alt="" />
+      <div id="idak-logo" className="cursor-pointer">
+        <img className="w-32" src={idakLogo} />
       </div>
 
       <nav className="flex text-nowrap align-middle absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
