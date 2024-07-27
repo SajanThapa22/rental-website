@@ -8,7 +8,7 @@ import SelectandSearch from "./SelectandSearch";
 import SelectSearchResponsive from "./SelectSearchResponsive";
 
 export const buttonDetails = [
-  { id: 1, text: "places", bgClr: "bg-clr-primary", clr: "text-clr-white" },
+  { id: 1, text: "places", bgClr: "bg-clr-white", clr: "text-clr-very-dark" },
   {
     id: 2,
     text: "rides",
@@ -72,12 +72,8 @@ const DiscoverRental = () => {
                 width={width < 507 ? "w-full" : ""}
                 key={b.id}
                 text={b.text}
-                bgClr={
-                  b.text === selectedRental
-                    ? `${b.bgClr} brightness-90`
-                    : b.bgClr
-                }
-                clr={b.clr}
+                bgClr={b.text === selectedRental ? `bg-[#dc2626]` : b.bgClr}
+                clr={b.text === selectedRental ? `text-white` : b.clr}
                 onFocus={() => setPlaceHolder(b.text)}
                 onBlur={() => setPlaceHolder("cars, houses and more..")}
               />
